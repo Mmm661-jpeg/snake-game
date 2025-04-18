@@ -182,4 +182,18 @@ canvas
     height: 25px;
 }
 
+.controlls-card
+{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
+    border-radius: 8px; 
+    box-sizing: border-box;
+    display: block;
+    padding: 5px;
+    margin: 1px;
+}
+
+.controlls-card p
+{
+    color: white;
+}
 

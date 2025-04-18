@@ -246,6 +246,11 @@ function GameBoard({setGameOver,setScore,setHighScore,mode})
             <h1>Snake</h1>
             <p>Highscore: {Localhighscore} </p>
             <p>Score : {localScore} </p>
+
+            <div className="controlls-card">
+            <p>Controlls: W,S,D,A </p>
+            </div>
+           
         </div>
 
         <canvas ref={Canv} width={canvasWidth} height={canvasHeight}></canvas>
